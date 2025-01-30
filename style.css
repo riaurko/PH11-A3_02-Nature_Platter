@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+body
+{
+    font-family: 'Sora', Helvetica, sans-serif;
+}
+@keyframes banner-heading
+{
+    0%
+    {
+        opacity: 20%;
+    }
+    25%
+    {
+        opacity: 40%;
+    }
+    50%
+    {
+        opacity: 65%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+@keyframes banner-para
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform: rotate(5deg);
+    }
+    50%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(-5deg);
+    }
+}
+@keyframes banner-img
+{
+    0%
+    {
+        filter: grayscale(100%);
+    }
+    25%
+    {
+        filter: grayscale(50%);
+    }
+    50%
+    {
+        filter: grayscale(0%) blur(1px);
+    }
+    75%
+    {
+        filter: blur(1pt);
+    }
+    100%
+    {
+        filter: blur(0px);
+    }
+}
+.banner h1
+{
+    animation: banner-heading 0.75s linear 0s infinite alternate;
+}
+.banner p
+{
+    animation: banner-para 1.5s linear 0s infinite alternate;
+}
+.banner img
+{
+    animation: banner-img 4s linear 0s infinite alternate;
+}

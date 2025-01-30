@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script><script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        accent: '#179800',
+                    }
+                }
+            }
+        }
+    </script>
+        <title>Nature's Platter - Have A Fresh Platter of Nature</title>
+    </head>
+    <body class="bg-[#EFE]">
+        <header class="space-y-12 lg:space-y-24 bg-[#FEE] mb-20">
+            <nav class="flex justify-between items-center md:border-none border-b-2 border-b-accent px-4 md:px-16 lg:px-32 py-4">
+                <img src="./logo-header.png" alt="Logo" class="logo h-12 lg:h-full">
+                <div class="nav-links hidden lg:block">
+                    <ul class="flex gap-6">
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-icons hidden md:flex gap-5">
+                    <img src="./search.png" alt="Search" class="cursor-pointer">
+                    <img src="./cart.png" alt="Cart" class="cursor-pointer">
+                </div>
+                <div class="nav-btns hidden md:flex gap-3">
+                    <button type="button" class="border-2 border-accent px-8 py-1 rounded-md hover:border-green-500 hover:text-slate-600">Login</button>
+                    <button type="button" class="bg-accent text-white px-8 py-1 rounded-md hover:bg-green-600 hover:text-slate-200">Register</button>
+                </div>
+                <img src="./hamburger-menu.png" alt="Mobile Menu" class="inline lg:hidden">
+            </nav>
+            <section class="banner flex flex-col items-center gap-10 px-4 md:px-16 lg:px-32">
+                <div class="flex flex-col gap-8 w-full lg:w-2/3">
+                    <h1 class="text-5xl text-center font-bold">Freshness <span class="text-accent">You Can Count</span> On, Prices You'll Love!</h1>
+                    <p class="text-slate-700 text-center">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day</p>
+                </div>
+                <img src="./hero-vegetables.png" alt="Fresh Vegetables" class="w-full lg:w-3/4">
+            </section>
+        </header>
+    </body>
+</html>
