@@ -24,10 +24,10 @@
                 <img src="./logo-header.png" alt="Logo" class="logo h-12 lg:h-full">
                 <div class="nav-links hidden lg:block">
                     <ul class="flex gap-6 text-lg">
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonial">Testimonials</a></li>
+                        <li><a href="#subscribe">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="flex gap-4">
@@ -36,8 +36,8 @@
                         <img src="./cart.png" alt="Cart" class="cursor-pointer w-6 h-6">
                     </div>
                     <div class="nav-btns hidden md:flex gap-2">
-                        <button type="button" class="border-2 border-accent px-6 py-1 rounded-md hover:border-green-500 hover:text-slate-600">Login</button>
-                        <button type="button" class="bg-accent text-white px-6 py-1 rounded-md hover:bg-green-600 hover:text-slate-200">Register</button>
+                        <button type="button" class="border-2 border-accent px-6 py-1 rounded-md">Login</button>
+                        <button type="button" class="bg-accent text-white px-6 py-1 rounded-md">Register</button>
                     </div>
                 </div>
                 <img src="./hamburger-menu.png" alt="Mobile Menu" class="inline lg:hidden">
@@ -78,7 +78,7 @@
                         <div class="mx-6 lg:ml-8 lg:mx-0 mt-12 flex flex-col gap-4">
                             <h3 class="text-3xl font-semibold text-slate-100">30% Off</h3>
                             <p>Discover a world of vegetables and essentials buyable for poor gentles</p>
-                            <button type="button" class="font-medium px-6 py-2 bg-gray-200 text-slate-900 rounded-md w-fit hover:bg-gray-800 hover:text-slate-100">Buy Now</button>
+                            <button type="button" class="font-medium px-6 py-2 bg-gray-200 text-slate-900 rounded-md w-fit">Buy Now</button>
                         </div>
                         <div class="flex justify-end"><img src="./veg-offer.png" alt="Vegetable & Banana"></div>
                     </div>
@@ -210,9 +210,28 @@
             </section>
         </main>
         <footer class="bg-accent p-20 flex justify-between">
-            <div class="logo-subtitle"></div>
-            <div class="footer-links"></div>
-            <div class="social"></div>
+            <div class="logo-subtitle space-y-4 w-1/3">
+                <img src="./logo-footer.png" alt="Logo">
+                <p class="text-lg text-slate-300 font-medium">Discover a store offers fresh, high-quality and everyday essentials, all sourced with care to bring you the best in taste and nutrition.</p>
+            </div>
+            <div class="footer-links text-slate-100 space-y-6">
+                <h3 class="text-2xl font-semibold">Explore</h3>
+                <ul class="space-y-4 text-lg">
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonial">Testimonials</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+            <div class="social flex flex-col gap-4">
+                <h3 class="text-2xl font-semibold">Follow Us</h3>
+                <ul class="flex gap-6">
+                    <li><img src="./linkedin.png" alt="LinkedIn"></li>
+                    <li><img src="./facebook.png" alt="FaceBook"></li>
+                    <li><img src="./github.png" alt="GitHub"></li>
+                    <li><img src="./x.png" alt="X"></li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>

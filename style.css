@@ -30,7 +30,7 @@ body
     }
     25%
     {
-        transform: rotate(5deg);
+        transform: rotate(2deg);
     }
     50%
     {
@@ -38,7 +38,7 @@ body
     }
     100%
     {
-        transform: rotate(-5deg);
+        transform: rotate(-2deg);
     }
 }
 @keyframes banner-img
