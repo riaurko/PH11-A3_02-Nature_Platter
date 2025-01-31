@@ -26,7 +26,7 @@
                     <ul class="flex gap-6 text-lg">
                         <li><a href="#products">Products</a></li>
                         <li><a href="#services">Services</a></li>
-                        <li><a href="#testimonial">Testimonials</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
                         <li><a href="#subscribe">Contact Us</a></li>
                     </ul>
                 </div>
@@ -51,8 +51,8 @@
             </section>
         </header>
         <main>
-            <section id="services" class="space-y-12 px-4 md:px-16 lg:px-32 py-10 md:py-20 lg:py-32">
-                <h2 class="text-3xl font-semibold text-accent">Services</h2>
+            <section class="space-y-12 px-4 md:px-16 lg:px-32 py-10 md:py-20 lg:py-32">
+                <h2 id="services" class="text-3xl font-semibold text-accent">Services</h2>
                 <div class="service-cards flex flex-col lg:flex-row gap-6">
                     <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3">
                         <div class="bg-slate-100 rounded-full p-5"><img src="./service.png" alt="24/7 Service"></div>
@@ -71,114 +71,125 @@
                     </div>
                 </div>
             </section>
-            <section id="products" class="bg-[#E8DDDD] space-y-12 px-2 md:px-16 lg:px-32 py-10 md:py-20 lg:py-32">
-                <h2 class="text-3xl font-semibold text-accent">Popular Products</h2>
-                <div class="grid grid-cols-2 lg:grid-cols-5 gap-x-2 lg:gap-x-4 gap-y-4 lg:gap-y-10 justify-between">
+            <section class="bg-[#E8DDDD] space-y-12 px-2 md:px-16 lg:px-32 py-10 md:py-20 lg:py-32">
+                <h2 id="products" class="text-3xl font-semibold text-accent">Popular Products</h2>
+                <div class="grid grid-cols-2 lg:grid-cols-6 gap-4">
                     <div class="col-span-2 row-span-3 bg-gradient-to-br from-[#00C000] to-[#EFE] rounded-xl">
-                        <div class="mx-6 lg:ml-8 lg:mx-0 mt-12 flex flex-col gap-4">
+                        <div class="mx-6 lg:ml-5 lg:mx-0 mt-12 flex flex-col gap-4">
                             <h3 class="text-3xl font-semibold text-slate-100">30% Off</h3>
                             <p>Discover a world of vegetables and essentials buyable for poor gentles</p>
                             <button type="button" class="font-medium px-6 py-2 bg-gray-200 text-slate-900 rounded-md w-fit">Buy Now</button>
                         </div>
                         <div class="flex justify-end"><img src="./veg-offer.png" alt="Vegetable & Banana"></div>
                     </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg lg:p-1 flex items-center"><img src="./potato.png" alt="Potato" class="w-12 lg:w-full"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.4</span>
+
+                    <div class="col-span-2 lg:col-span-4 lg:row-span-3 grid grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg lg:p-1 flex items-center"><img src="./potato.png" alt="Potato" class="w-12 lg:w-full"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.4</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Potato 500G</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$1.50</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Potato 0.5KG</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$1.50</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-4 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="w-12 lg:w-full"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.5</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-4 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="w-12 lg:w-full"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.5</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Tomato 1KG</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$3.99</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Tomato 1KG</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$3.99</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating">
-                                <span>4.6</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating">
+                                    <span>4.6</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Tomato 0.5KG</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$1.99</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Tomato 0.5KG</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$1.99</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.5</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.5</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Onion 500G</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$1.75</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Onion 500G</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$1.75</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.7</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.7</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Potato 1KG</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$2.99</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Potato 1KG</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$2.99</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.7</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.7</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Onion 250G</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$0.70</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Onion 250G</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$0.70</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.4</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.4</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Potato 250G</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$0.75</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Potato 250G</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$0.75</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg hidden lg:flex gap-4 w-[16.7rem] h-fit">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating">
-                                <span>4.5</span>
+
+                        <div class="bg-slate-100 p-4 rounded-lg hidden lg:flex gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating">
+                                    <span>4.5</span>
+                                </div>
+                                <h4 class="font-medium text-lg">Onion 1KG</h4>
+                                <h6 class="font-medium">$3.50</h6>
                             </div>
-                            <h4 class="font-medium text-xl">Onion 1KG</h4>
-                            <h6 class="font-medium">$3.50</h6>
                         </div>
-                    </div>
-                    <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 h-fit w-[13.6rem] lg:w-[16.7rem]">
-                        <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
-                        <div class="product-info flex flex-col justify-center gap-2">
-                            <div class="flex items-center gap-3">
-                                <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
-                                <span>4.6</span>
+                        
+                        <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
+                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
+                            <div class="product-info flex flex-col justify-center gap-2">
+                                <div class="flex items-center gap-3">
+                                    <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
+                                    <span>4.6</span>
+                                </div>
+                                <h4 class="font-medium lg:text-lg">Tomato 250G</h4>
+                                <h6 class="font-medium text-sm lg:text-[1rem]">$0.99</h6>
                             </div>
-                            <h4 class="font-medium lg:text-xl">Tomato 250G</h4>
-                            <h6 class="font-medium text-sm lg:text-[1rem]">$0.99</h6>
                         </div>
                     </div>
                 </div>
@@ -208,29 +219,113 @@
                     </div>
                 </div>
             </section>
+            <section class="bg-[#E8DDDD] space-y-12 px-4 md:px-16 lg:px-32 pt-10 md:pt-20 lg:pt-32 pb-80">
+                <h2 id="reviews" class="text-3xl font-semibold text-accent">Reviews & Feedback</h2>
+                <div class="test-cards flex flex-col gap-8">
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start">
+                        <img src="./man.png" alt="Man" class="rounded-full w-14 lg:inline-block hidden">
+                        <div class="flex flex-col justify-between gap-2 lg:gap-0">
+                            <div class="flex gap-6 lg:gap-4 items-center">
+                                <span class="font-semibold lg:text-lg">James Daniel</span>
+                                <div class="flex gap-2 items-center">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                </div>
+                            </div>
+                            <p>Fantastic customer service and the vegetables are always organic and fresh. Highly recommend!</p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end">
+                        <img src="./woman.png" alt="Woman" class="rounded-full w-14 lg:inline-block hidden">
+                        <div class="flex flex-col justify-between gap-2 lg:gap-0">
+                            <div class="flex lg:flex-row-reverse gap-4 items-center lg:self-end">
+                                <span class="font-semibold lg:text-lg">Emma Grace</span>
+                                <div class="flex gap-2 items-center">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                </div>
+                            </div>
+                            <p>I love how organized the store is. The produce is always top-notch, and prices are fair!</p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start">
+                        <img src="./boy.png" alt="Boy" class="rounded-full w-[3.75rem] h-[3.75rem] lg:inline-block hidden">
+                        <div class="flex flex-col justify-between gap-2 lg:gap-0">
+                            <div class="flex gap-4 items-center">
+                                <span class="font-semibold lg:text-lg">Liam Jeeson</span>
+                                <div class="flex gap-2 items-center">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                </div>
+                            </div>
+                            <p>I've been shopping here for months and I'm always impressed with the freshness of the vegetables.</p>
+                        </div>
+                    </div>
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end">
+                        <img src="./girl.png" alt="Girl" class="rounded-full w-14 lg:inline-block hidden">
+                        <div class="flex flex-col justify-between gap-2 lg:gap-0">
+                            <div class="flex lg:flex-row-reverse gap-4 items-center lg:self-end">
+                                <span class="font-semibold lg:text-lg">Lily Charlotte</span>
+                                <div class="flex gap-2 items-center">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                    <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
+                                </div>
+                            </div>
+                            <p>If you care about fresh veggies, this is the place to go. The veggies are always vibrant and flavorful.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer class="bg-accent p-20 flex justify-between">
-            <div class="logo-subtitle space-y-4 w-1/3">
-                <img src="./logo-footer.png" alt="Logo">
-                <p class="text-lg text-slate-300 font-medium">Discover a store offers fresh, high-quality and everyday essentials, all sourced with care to bring you the best in taste and nutrition.</p>
+        <footer class="bg-accent p-36 pt-80 relative">
+            <div id="subscribe" class="bg-[#FFF] flex items-center rounded-2xl p-12 absolute bottom-[71%]">
+                <div class="subs-img flex items-center">
+                    <img src="./veg-busket.png" alt="Vegetable Basket" class="w-5/6">
+                </div>
+                <div class="subs-info flex flex-col gap-6">
+                    <h2 class="text-3xl font-semibold">Get Grocery News!</h2>
+                    <p>Exclusive training tips, tricks, product deals and more.</p>
+                    <form class="flex flex-col gap-6">
+                        <input type="email" placeholder="Enter Email..." required class="p-3 rounded-md w-4/5 bg-slate-200">
+                        <button type="submit" class="bg-accent text-slate-100 px-8 py-2 rounded-md w-fit">Subscribe</button>
+                    </form>
+                </div>
             </div>
-            <div class="footer-links text-slate-100 space-y-6">
-                <h3 class="text-2xl font-semibold">Explore</h3>
-                <ul class="space-y-4 text-lg">
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#testimonial">Testimonials</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-            </div>
-            <div class="social flex flex-col gap-4">
-                <h3 class="text-2xl font-semibold">Follow Us</h3>
-                <ul class="flex gap-6">
-                    <li><img src="./linkedin.png" alt="LinkedIn"></li>
-                    <li><img src="./facebook.png" alt="FaceBook"></li>
-                    <li><img src="./github.png" alt="GitHub"></li>
-                    <li><img src="./x.png" alt="X"></li>
-                </ul>
+            <div class="flex justify-between">
+                <div class="logo-subtitle space-y-4 w-1/3">
+                    <img src="./logo-footer.png" alt="Logo">
+                    <p class="text-lg text-slate-300 font-medium">Discover a store offers fresh, high-quality and everyday essentials, all sourced with care to bring you the best in taste and nutrition.</p>
+                </div>
+                <div class="footer-links text-slate-100 space-y-6">
+                    <h3 class="text-2xl font-semibold">Explore</h3>
+                    <ul class="space-y-4 text-lg">
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonial">Testimonials</a></li>
+                        <li><a href="#subscribe">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="social flex flex-col gap-4">
+                    <h3 class="text-2xl font-semibold text-slate-100">Follow Us</h3>
+                    <ul class="flex gap-6">
+                        <li><img src="./linkedin.png" alt="LinkedIn"></li>
+                        <li><img src="./facebook.png" alt="FaceBook"></li>
+                        <li><img src="./github.png" alt="GitHub"></li>
+                        <li><img src="./x.png" alt="X"></li>
+                    </ul>
+                </div>
             </div>
         </footer>
     </body>

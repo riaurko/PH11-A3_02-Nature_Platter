@@ -70,7 +70,7 @@ body
 }
 .banner p
 {
-    animation: banner-para 1.5s linear 0s infinite alternate;
+    animation: banner-para 1.25s linear 0s infinite alternate;
 }
 .banner img
 {
