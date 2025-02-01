@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-body
+
+::-webkit-scrollbar
 {
-    font-family: 'Sora', Helvetica, sans-serif;
+    width: 1.25rem;
 }
+::-webkit-scrollbar-track
+{
+    background-color: #334155;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #009F00;
+}
+
+
 @keyframes banner-heading
 {
     0%
