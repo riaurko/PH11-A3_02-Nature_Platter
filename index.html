@@ -16,28 +16,28 @@
             }
         }
     </script>
-        <title>Nature's Platter - Have A Fresh Platter of Nature</title>
+        <title>Nature's Platter - A Fresh Platter of Nature</title>
     </head>
     <body class="bg-[#EEF1EE]">
         <header class="space-y-12 lg:space-y-24 bg-[#E8DDDD]">
             <nav class="flex justify-between items-center md:border-none border-b-2 border-b-accent px-4 md:px-16 lg:px-36 py-4">
-                <img src="./logo-header.png" alt="Logo" class="logo h-12 lg:h-full">
+                <a href="#"><img src="./logo-header.png" alt="Logo" class="logo h-12 lg:h-full hover:scale-110 hover:-rotate-6 transition-transform duration-300"></a>
                 <div class="nav-links hidden lg:block">
                     <ul class="flex gap-6 text-lg">
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#reviews">Reviews</a></li>
-                        <li><a href="#subscribe">Contact Us</a></li>
+                        <li class="hover:text-slate-600"><a href="#products">Products</a></li>
+                        <li class="hover:text-slate-600"><a href="#services">Services</a></li>
+                        <li class="hover:text-slate-600"><a href="#reviews">Reviews</a></li>
+                        <li class="hover:text-slate-600"><a href="#subscribe">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="flex gap-4">
-                    <div class="nav-icons hidden md:flex gap-3 items-center">
-                        <img src="./search.png" alt="Search" class="cursor-pointer w-6 h-6">
-                        <img src="./cart.png" alt="Cart" class="cursor-pointer w-6 h-6">
+                <div class="flex gap-5">
+                    <div class="nav-icons hidden md:flex gap-4 items-center">
+                        <img src="./search.png" alt="Search" class="cursor-pointer w-6 h-6 hover:scale-125 transition-transform">
+                        <img src="./cart.png" alt="Cart" class="cursor-pointer w-6 h-6 hover:scale-125 transition-transform">
                     </div>
                     <div class="nav-btns hidden md:flex gap-2">
-                        <button type="button" class="border-2 border-accent px-6 py-1 rounded-md">Login</button>
-                        <button type="button" class="bg-accent text-white px-6 py-1 rounded-md">Register</button>
+                        <button type="button" class="border-2 border-accent px-6 py-1 rounded-md hover:bg-accent hover:text-white transition-colors">Login</button>
+                        <button type="button" class="bg-accent border-2 border-accent text-white px-6 py-1 rounded-md hover:bg-transparent hover:text-black transition-colors">Register</button>
                     </div>
                 </div>
                 <img src="./hamburger-menu.png" alt="Mobile Menu" class="inline lg:hidden">
@@ -54,17 +54,17 @@
             <section class="space-y-12 px-4 md:px-16 lg:px-32 py-10 md:py-20 lg:py-32">
                 <h2 id="services" class="text-3xl font-semibold text-accent">Services</h2>
                 <div class="service-cards flex flex-col lg:flex-row gap-6">
-                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3">
+                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3 hover:shadow-md hover:shadow-slate-400 active:shadow-inner active:shadow-slate-500 transition-shadow duration-200">
                         <div class="bg-slate-100 rounded-full p-5"><img src="./service.png" alt="24/7 Service"></div>
                         <h4 class="text-2xl font-semibold">24/7 Service</h4>
                         <p class="text-center">We're here for you 24/7, offering support and services whenever you need them.</p>
                     </div>
-                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3">
+                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3 hover:shadow-md hover:shadow-slate-400 active:shadow-inner active:shadow-slate-500 transition-shadow duration-200">
                         <div class="bg-slate-100 rounded-full p-5"><img src="./fast-delivery.png" alt="Fast Delivery"></div>
                         <h4 class="text-2xl font-semibold">Fast Delivery</h4>
                         <p class="text-center">We ensure your orders arrive on time, so you can enjoy your need without wait.</p>
                     </div>
-                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3">
+                    <div class="bg-[#E6DDDD] p-8 flex flex-col justify-center items-center gap-5 rounded-2xl w-full sm:mx-auto sm:w-3/4 lg:w-1/3 hover:shadow-md hover:shadow-slate-400 active:shadow-inner active:shadow-slate-500 transition-shadow duration-200">
                         <div class="bg-slate-100 rounded-full p-5"><img src="./healthy-product.png" alt="Healthy Products"></div>
                         <h4 class="text-2xl font-semibold">Healthy Products</h4>
                         <p class="text-center">Our products provide you nutritious options you can trust for a healthier life.</p>
@@ -78,14 +78,14 @@
                         <div class="mx-6 lg:ml-5 lg:mx-0 mt-12 flex flex-col gap-4">
                             <h3 class="text-3xl font-semibold text-slate-100">30% Off</h3>
                             <p>Discover a world of vegetables and essentials buyable for poor gentles</p>
-                            <button type="button" class="font-medium px-6 py-2 bg-gray-200 text-slate-900 rounded-md w-fit">Buy Now</button>
+                            <button type="button" class="font-medium px-6 py-2 bg-gray-200 text-slate-900 rounded-md w-fit hover:bg-slate-900 hover:text-gray-200 transition-colors duration-300">Buy Now</button>
                         </div>
-                        <div class="flex justify-end"><img src="./veg-offer.png" alt="Vegetable & Banana"></div>
+                        <div class="flex justify-end"><img src="./veg-offer.png" alt="Vegetable & Banana" class="hover:-rotate-12 hover:-translate-y-3 transition-transform duration-300"></div>
                     </div>
 
                     <div class="col-span-2 lg:col-span-4 lg:row-span-3 grid grid-cols-2 lg:grid-cols-3 gap-4">
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg lg:p-1 flex items-center"><img src="./potato.png" alt="Potato" class="w-12 lg:w-full"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg lg:p-1 flex items-center"><img src="./potato.png" alt="Potato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -97,7 +97,7 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-4 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="w-12 lg:w-full"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -109,19 +109,19 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating">
                                     <span>4.6</span>
                                 </div>
-                                <h4 class="font-medium lg:text-lg">Tomato 0.5KG</h4>
+                                <h4 class="font-medium lg:text-lg">Tomato 500G</h4>
                                 <h6 class="font-medium text-sm lg:text-[1rem]">$1.99</h6>
                             </div>
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -145,7 +145,7 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -157,7 +157,7 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./potato.png" alt="Potato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -169,7 +169,7 @@
                         </div>
 
                         <div class="bg-slate-100 p-4 rounded-lg hidden lg:flex gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./onion.png" alt="Onion" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating">
@@ -181,7 +181,7 @@
                         </div>
                         
                         <div class="bg-slate-100 p-4 rounded-lg flex gap-2 lg:gap-4 w-full">
-                            <div class="product-img bg-gray-300 rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato"></div>
+                            <div class="product-img bg-[#E8DDDD] rounded-lg p-1 flex items-center"><img src="./tomato.png" alt="Tomato" class="hover:scale-125 transition-transform"></div>
                             <div class="product-info flex flex-col justify-center gap-2">
                                 <div class="flex items-center gap-3">
                                     <img src="./rating.png" alt="Rating" class="w-4 h-4 lg:w-6 lg:h-6">
@@ -199,22 +199,22 @@
                 <div class="offers flex flex-col lg:flex-row gap-5">
                     <div class="w-full lg:w-3/5 bg-green-800 rounded-3xl flex lg:gap-12 px-4 lg:px-6 py-4 justify-center">
                         <div class="offer-content flex flex-col gap-8 w-full lg:w-1/2 justify-center">
-                            <img src="./daawat-logo.png" alt="DAAWAT" class="lg:w-2/3">
+                            <a href="https://www.daawat.com" target="_blank"><img src="./daawat-logo.png" alt="DAAWAT" class="lg:w-2/3 hover:translate-x-4 transition-transform"></a>
                             <h4 class="lg:px-8 px-4 py-2 bg-green-500 text-white rounded-lg w-fit lg:text-lg">Cook Exotic Dishes</h4>
                             <h3 class="text-xl lg:text-4xl text-white">UP to <span class="font-bold">35% OFF</span></h3>
                         </div>
                         <div class="offer-img flex items-center">
-                            <img src="./daawat-mockup.png" alt="DAAWAT Biryani Basmati Rice" class="h-4/5">
+                            <img src="./daawat-mockup.png" alt="DAAWAT Biryani Basmati Rice" class="h-4/5 hover:scale-110 transition-transform duration-200">
                         </div>
                     </div>
                     <div class="w-full lg:w-2/5 bg-blue-900 rounded-3xl flex px-4 lg:px-6 py-4">
                         <div class="offer-content flex flex-col gap-4 w-3/4 justify-center">
-                            <img src="./india-gate-logo.png" alt="INDIA-GATE" class="w-2/5">
+                            <a href="https://www.indiagatefoods.com" target="_blank"><img src="./india-gate-logo.png" alt="INDIA-GATE" class="w-2/5 hover:translate-x-4 transition-transform"></a>
                             <h4 class="lg:px-6 px-4 py-2 bg-blue-700 text-white rounded-lg w-fit">World's No.1 Rice</h4>
                             <h3 class="text-xl lg:text-2xl text-white">UP to <span class="font-bold">20% OFF</span></h3>
                         </div>
                         <div class="offer-img flex items-center justify-end">
-                            <img src="./india-gate-mockup.png" alt="INDIA-GATE Basmati Rice" class="">
+                            <img src="./india-gate-mockup.png" alt="INDIA-GATE Basmati Rice" class=" hover:scale-110 transition-transform duration-200">
                         </div>
                     </div>
                 </div>
@@ -222,8 +222,8 @@
             <section class="bg-[#E8DDDD] space-y-12 px-4 md:px-16 lg:px-32 pt-10 md:pt-20 lg:pt-32 pb-80">
                 <h2 id="reviews" class="text-3xl font-semibold text-accent">Reviews & Feedback</h2>
                 <div class="test-cards flex flex-col gap-8">
-                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start">
-                        <img src="./man.png" alt="Man" class="rounded-full w-14 lg:inline-block hidden">
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start hover:translate-x-14 hover:-translate-y-4 hover:shadow-lg hover:shadow-gray-400 transition-transform duration-200">
+                        <img src="./man.png" alt="Man" class="rounded-full w-14 lg:inline-block hidden hover:scale-110 transition-transform">
                         <div class="flex flex-col justify-between gap-2 lg:gap-0">
                             <div class="flex gap-6 lg:gap-4 items-center">
                                 <span class="font-semibold lg:text-lg">James Daniel</span>
@@ -238,8 +238,8 @@
                             <p>Fantastic customer service and the vegetables are always organic and fresh. Highly recommend!</p>
                         </div>
                     </div>
-                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end">
-                        <img src="./woman.png" alt="Woman" class="rounded-full w-14 lg:inline-block hidden">
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end hover:-translate-x-14 hover:shadow-lg hover:shadow-gray-400 hover:-translate-y-4 transition-transform duration-200">
+                        <img src="./woman.png" alt="Woman" class="rounded-full w-14 lg:inline-block hidden hover:scale-110 transition-transform">
                         <div class="flex flex-col justify-between gap-2 lg:gap-0">
                             <div class="flex lg:flex-row-reverse gap-4 items-center lg:self-end">
                                 <span class="font-semibold lg:text-lg">Emma Grace</span>
@@ -254,11 +254,11 @@
                             <p>I love how organized the store is. The produce is always top-notch, and prices are fair!</p>
                         </div>
                     </div>
-                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start">
-                        <img src="./boy.png" alt="Boy" class="rounded-full w-[3.75rem] h-[3.75rem] lg:inline-block hidden">
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex gap-6 w-fit self-start hover:translate-x-14 hover:-translate-y-4 hover:shadow-lg hover:shadow-gray-400 transition-transform duration-200">
+                        <img src="./boy.png" alt="Boy" class="rounded-full w-[3.75rem] h-[3.75rem] lg:inline-block hidden hover:scale-110 transition-transform">
                         <div class="flex flex-col justify-between gap-2 lg:gap-0">
                             <div class="flex gap-4 items-center">
-                                <span class="font-semibold lg:text-lg">Liam Jeeson</span>
+                                <span class="font-semibold lg:text-lg">Liam Jesson</span>
                                 <div class="flex gap-2 items-center">
                                     <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
                                     <img src="./rating.png" alt="ReviewStar" class="w-4 h-4">
@@ -270,8 +270,8 @@
                             <p>I've been shopping here for months and I'm always impressed with the freshness of the vegetables.</p>
                         </div>
                     </div>
-                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end">
-                        <img src="./girl.png" alt="Girl" class="rounded-full w-14 lg:inline-block hidden">
+                    <div class="bg-slate-100 rounded-2xl px-6 py-4 flex flex-row-reverse gap-6 w-fit lg:self-end hover:-translate-x-14 hover:-translate-y-4 hover:shadow-lg hover:shadow-gray-400 transition-transform duration-200">
+                        <img src="./girl.png" alt="Girl" class="rounded-full w-14 lg:inline-block hidden hover:scale-110 transition-transform">
                         <div class="flex flex-col justify-between gap-2 lg:gap-0">
                             <div class="flex lg:flex-row-reverse gap-4 items-center lg:self-end">
                                 <span class="font-semibold lg:text-lg">Lily Charlotte</span>
@@ -289,41 +289,41 @@
                 </div>
             </section>
         </main>
-        <footer class="bg-accent p-36 pt-80 relative">
-            <div id="subscribe" class="bg-[#FFF] flex items-center rounded-2xl p-12 absolute bottom-[71%]">
-                <div class="subs-img flex items-center">
+        <footer class="bg-accent p-4 md:p-20 lg:p-36 pt-80 lg:pt-80 relative">
+            <div id="subscribe" class="bg-[#EEE] flex flex-col lg:flex-row items-center rounded-2xl p-6 lg:p-12 absolute right-5 lg:right-auto bottom-[71%] gap-6 lg:gap-0 w-[90%] lg:w-auto">
+                <div class="subs-img flex justify-center items-center">
                     <img src="./veg-busket.png" alt="Vegetable Basket" class="w-5/6">
                 </div>
-                <div class="subs-info flex flex-col gap-6">
-                    <h2 class="text-3xl font-semibold">Get Grocery News!</h2>
-                    <p>Exclusive training tips, tricks, product deals and more.</p>
-                    <form class="flex flex-col gap-6">
-                        <input type="email" placeholder="Enter Email..." required class="p-3 rounded-md w-4/5 bg-slate-200">
-                        <button type="submit" class="bg-accent text-slate-100 px-8 py-2 rounded-md w-fit">Subscribe</button>
+                <div class="subs-info flex flex-col items-center lg:items-start gap-6">
+                    <h2 class="text-3xl font-semibold text-accent lg:text-slate-800">Get Grocery News!</h2>
+                    <p class="text-center lg:text-start">Exclusive training tips, tricks, product deals and more.</p>
+                    <form class="flex flex-col gap-6 items-center lg:items-start w-full">
+                        <input type="email" placeholder="Enter Email..." required class="p-3 rounded-md w-full lg:w-4/5 bg-slate-200 hover:border hover:border-gray-400">
+                        <button type="submit" class="bg-accent text-slate-100 px-8 py-2 rounded-md w-fit hover:scale-105 transition-transform">Subscribe</button>
                     </form>
                 </div>
             </div>
-            <div class="flex justify-between">
-                <div class="logo-subtitle space-y-4 w-1/3">
+            <div class="flex flex-col lg:flex-row justify-between lg:items-center gap-8 lg:gap-0">
+                <div class="logo-subtitle space-y-4 lg:w-1/3">
                     <img src="./logo-footer.png" alt="Logo">
                     <p class="text-lg text-slate-300 font-medium">Discover a store offers fresh, high-quality and everyday essentials, all sourced with care to bring you the best in taste and nutrition.</p>
                 </div>
                 <div class="footer-links text-slate-100 space-y-6">
-                    <h3 class="text-2xl font-semibold">Explore</h3>
+                    <h3 class="text-lg lg:text-2xl font-semibold">Explore</h3>
                     <ul class="space-y-4 text-lg">
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#testimonial">Testimonials</a></li>
-                        <li><a href="#subscribe">Contact Us</a></li>
+                        <li class="hover:font-semibold hover:scale-110 transition-transform"><a href="#products">Products</a></li>
+                        <li class="hover:font-semibold hover:scale-110 transition-transform"><a href="#services">Services</a></li>
+                        <li class="hover:font-semibold hover:scale-110 transition-transform"><a href="#reviews">Reviews</a></li>
+                        <li class="hover:font-semibold hover:scale-110 transition-transform"><a href="#subscribe">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="social flex flex-col gap-4">
-                    <h3 class="text-2xl font-semibold text-slate-100">Follow Us</h3>
+                    <h3 class="text-lg lg:text-2xl font-semibold text-slate-100">Follow Us</h3>
                     <ul class="flex gap-6">
-                        <li><img src="./linkedin.png" alt="LinkedIn"></li>
-                        <li><img src="./facebook.png" alt="FaceBook"></li>
-                        <li><img src="./github.png" alt="GitHub"></li>
-                        <li><img src="./x.png" alt="X"></li>
+                        <li><a href="https://www.linkedin.com/in/riaurko" target="_blank"><img src="./linkedin.png" alt="LinkedIn" class="hover:-translate-y-2 hover:rotate-[360deg] transition-transform duration-300"></a></li>
+                        <li><a href="https://www.facebook.com/riaurko" target="_blank"><img src="./facebook.png" alt="FaceBook" class="hover:-translate-y-2 hover:rotate-[360deg] transition-transform duration-300"></a></li>
+                        <li><a href="https://github.com/riaurko" target="_blank"><img src="./github.png" alt="GitHub" class="hover:-translate-y-2 hover:rotate-[360deg] transition-transform duration-300"></a></li>
+                        <li><a href="https://x.com/riaurko" target="_blank"><img src="./x.png" alt="X" class="hover:-translate-y-2 hover:rotate-[360deg] transition-transform duration-300"></a></li>
                     </ul>
                 </div>
             </div>
